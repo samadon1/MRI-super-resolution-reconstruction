@@ -6,7 +6,7 @@ Currently using MNIST digits as a development dataset before moving to real MRI 
 ## Project Structure
 
 ```
-super-resolution/
+MRI-super-resolution-reconstruction/
 ├── data/               
 ├── src/               
 ├── scripts/          
