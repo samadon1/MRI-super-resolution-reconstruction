@@ -7,10 +7,10 @@ Currently using MNIST digits as a development dataset before moving to real MRI 
 
 ```
 super-resolution/
-├── data/               # Data storage
-├── src/               # Source code
-├── scripts/           # Training and evaluation scripts
-└── tests/             # Unit tests
+├── data/               
+├── src/               
+├── scripts/          
+└── tests/            
 ```
 
 ## Installation
