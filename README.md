@@ -43,9 +43,7 @@ python scripts/evaluate.py
 
 ## Development Dataset
 
-Currently using the MNIST digits dataset (scaled to 32x32) as a development dataset.
-This allows for rapid prototyping and testing of the super-resolution pipeline before
-moving to real MRI data.
+Currently using the MNIST digits dataset (scaled to 32x32) as a development dataset for rapid prototyping and testing of the super-resolution pipeline before moving to real MRI data.
 
 Each image goes through the following process:
 1. Original 8x8 digits are scaled to 32x32
