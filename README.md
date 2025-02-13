@@ -59,5 +59,11 @@ Each image goes through the following process:
 3. Training objective: Minimize MSE between predicted and actual high-res images
 
 ## Results
+Single example comparison
+![8772f586-ddaa-4047-8d9b-bb2c2fe263d1](https://github.com/user-attachments/assets/c5cc1505-b09a-45e7-9c30-1350196e8919)
 
-Example results will be shown here once training is complete.
+Detailed comparison
+![b7b287ce-edb7-41cd-a36e-e54ccaddc9e6](https://github.com/user-attachments/assets/9b3ff54c-8e86-40bf-971b-dabb46167ae3)
+
+
+
