@@ -63,5 +63,26 @@ Single example comparison
 Detailed comparison
 ![b7b287ce-edb7-41cd-a36e-e54ccaddc9e6](https://github.com/user-attachments/assets/9b3ff54c-8e86-40bf-971b-dabb46167ae3)
 
+## Super-resolution model for enhancing low-resolution MRI scans using an Enhanced Super-Resolution GAN (ESRGAN) architecture.
+- 2x upscaling of MRI images
+- RRDB-based generator architecture
+- Discriminator with spectral normalization
+- Perceptual and adversarial loss
+- Comprehensive visualization tools
+
+## Results
+- PSNR: 36.79 dB
+- Stable training performance
+- High-quality anatomical detail preservation
+
+Multiple examples demonstrating consistent performance across different brain MRI slices. Each row shows a different slice with its corresponding low-resolution input (108x90), super-resolution output (216x180), and high-resolution ground truth (216x180). 
+
+![download (15)](https://github.com/user-attachments/assets/cb855e9b-a6ff-4459-b650-46cc45c25bd9)
+
+Detailed comparison showing the effectiveness of our super-resolution model. Top row shows full brain MRI scans, while bottom row shows zoomed regions highlighting the enhanced detail in brain tissue structures. The super-resolution output (middle) achieves comparable quality to the high-resolution ground truth (right), demonstrating significant improvement over the low-resolution input (left).
+
+![download (16)](https://github.com/user-attachments/assets/66bc5903-5258-4c45-8126-13e95ce1c049)
+
+
 
 
