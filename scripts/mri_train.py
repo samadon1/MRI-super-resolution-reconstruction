@@ -88,3 +88,20 @@ def train_model(generator, discriminator, train_loader, val_loader, num_epochs=5
         history['psnr'].append(val_psnr)
     
     return history
+
+if __name__ == "__main__":
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print(f"Using device: {device}")
+    
+    dataset = MedicalDataset()
+    train_size = int(0.8 * len(dataset))
+    val_size = len(dataset) - train_size
+    train_dataset, val_dataset = torch.utils.data.random_split(dataset, [train_size, val_size])
+    
+    train_loader = DataLoader(train_dataset, batch_size=4, shuffle=True)
+    val_loader = DataLoader(val_dataset, batch_size=4)
+    
+    generator = Generator().to(device)
+    discriminator = Discriminator().to(device)
+    
+    history = train_model(generator, discriminator, train_loader, val_loader)
