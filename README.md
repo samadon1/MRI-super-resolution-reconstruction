@@ -1,7 +1,7 @@
-# Super Resolution Development
+# MRI Super Resolution Models
 
 This repository contains code for developing and testing super-resolution models.
-Currently using MNIST digits as a development dataset before moving to real MRI data.
+Used MNIST digits as a development dataset before moving to real MRI data.
 
 ## Project Structure
 
